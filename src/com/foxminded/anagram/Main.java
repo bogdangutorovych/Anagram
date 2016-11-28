@@ -9,9 +9,9 @@ public class Main {
 		System.out.println("Input initial text: ");
 		String inputText = s.nextLine();
 
-		Anagram modificator = new Anagram();
+		Anagram anagram = new Anagram();
 
 		System.out.println("Converted text:");
-		System.out.println(modificator.reverseString(inputText));
+		System.out.println(anagram.reverseString(inputText));
 	}
 }

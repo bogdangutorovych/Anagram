@@ -2,7 +2,7 @@ package com.foxminded.anagram;
 
 public class Anagram {
 
-	private String reverseWord(String word) {
+	public String reverseWord(String word) {
 		String reverseWordOnlyLetters = "";
 		char[] wordChars = word.toCharArray();
 		for (int i = wordChars.length - 1; i >= 0; --i) {
